@@ -1,10 +1,11 @@
 import React from "react";
-import Cards from "../Cards";
-import Form from "../Form";
+import Cards from "./Cards";
+import Form from "./Form";
 
 export default function App() {
+  const style = "w-full h-screen flex items-center justify-center flex-col";
   return (
-    <div>
+    <div className={style}>
       <Cards />
       <Form />
     </div>
