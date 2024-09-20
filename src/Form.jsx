@@ -5,6 +5,7 @@ export default function Form({ handleFormSubmitData }) {
   const inpt = "border-2 border-solid border-black rounded font-bold px-2";
   const btn =
     " bg-blue-500 text-white rounded px-2 mt-2 font-bold text-xl py-1 outline-none";
+
   const { register, handleSubmit, reset } = useForm();
   const handleFormSubmit = (data) => {
     handleFormSubmitData(data);
