@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Card({ user, handleRemove, id }) {
   const style =
     "w-64 h-[95%] bg-zinc-100 rounded-xl flex flex-col justify-center items-center";
@@ -23,30 +21,3 @@ export default function Card({ user, handleRemove, id }) {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
