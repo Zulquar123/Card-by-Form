@@ -20,7 +20,8 @@ export default function App() {
   const handleRemove = (id) => {
     setUser(() => user.filter((item, index) => index != id));
   };
-// =================================================================================
+
+  // =================================================================================
   return (
     <div className={style}>
       <Cards user={user} handleRemove={handleRemove} />
